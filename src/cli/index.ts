@@ -10,7 +10,5 @@ program
   .version('1.0.0')
   .description('An example CLI for Automation Selenium Webdriver')
   .argument('file_config', 'Config file path')
-  .action(async (config) => {
-
-  })
+  .action(async (config) => {})
   .parse(process.argv)

@@ -1,0 +1,51 @@
+apiVersion: v1
+kind: Crawler
+metadata:
+  name: test
+spec:
+  url: https://www.example.com
+  selectors:
+    - name: title
+      selector: title
+    - name: h1
+      selector: h1
+    - name: h2
+      selector: h2
+    - name: h3
+      selector: h3
+    - name: h4
+      selector: h4
+    - name: h5
+      selector: h5
+    - name: h6
+      selector: h6
+    - name: p
+      selector: p
+    - name: a
+      selector: a
+    - name: img
+      selector: img
+    - name: table
+      selector: table
+    - name: ul
+      selector: ul
+    - name: ol
+      selector: ol
+    - name: dl
+      selector: dl
+    - name: blockquote
+      selector: blockquote
+    - name: pre
+      selector: pre
+    - name: code
+      selector: code
+    - name: strong
+      selector: strong
+    - name: em
+      selector: em
+    - name: b
+      selector: b
+    - name: i
+      selector: i
+    - name: u
+      selector: u
