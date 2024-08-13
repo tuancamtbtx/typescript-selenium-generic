@@ -2,10 +2,27 @@
   "name": "typescript-selenium-generic",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "libs/cli/index.js",
+  "keywords": [
+    "cli",
+    "npmtool"
+  ],
+  "files": [
+    "libs"
+  ],
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "bin": {
+    "selegen": "libs/cli/index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "figlet": "^1.7.0"
+  }
 }
