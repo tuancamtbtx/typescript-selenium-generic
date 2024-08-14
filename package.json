@@ -41,6 +41,7 @@
     "moment-timezone": "^0.5.45",
     "npm": "^10.2.5",
     "path": "^0.12.7",
+    "selenium-webdriver": "^4.23.0",
     "tsc": "^2.0.4",
     "winston": "^3.14.1"
   },
