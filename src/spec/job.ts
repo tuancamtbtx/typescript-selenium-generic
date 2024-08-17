@@ -1,5 +1,5 @@
 export default class JobSpec {
-    apiVersion: string
-    metadata: any
-    spec: any
+  apiVersion: string
+  metadata: any
+  spec: any
 }

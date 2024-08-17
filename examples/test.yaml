@@ -7,47 +7,47 @@ spec:
     page_name: login
     url: https://omicx.vn/account/login
     tasks:
-    - step: 1
-      type_selector: xpath
-      element_selector: "/html/body/app-root/ng-component/div/div/div/form/div[1]/tenant-change/div/a"
-      action: click
-      value: 
-    - step: 2
-      type_selector: id
-      element_selector: tenancyName
-      action: write
-      value: welcomecall
-    - step: 3
-      type_selector: cssSelector
-      element_selector: button.btn.btn-primary
-      action: click
-      value: 
-    - step: 4
-      type_selector: xpath
-      element_selector: "/html/body/app-root/ng-component/div/div/div/form/div[2]/input"
-      action: write
-      value: doitac
-    - step: 5
-      type_selector: xpath
-      element_selector: "/html/body/app-root/ng-component/div/div/div/form/div[4]/input"
-      action: write
-      value: Welcome@4321
-    - step: 6
-      type_selector: xpath
-      element_selector: "/html/body/app-root/ng-component/div/div/div/form/div[6]/button"
-      action: click
-      value: 
+      - step: 1
+        type_selector: xpath
+        element_selector: '/html/body/app-root/ng-component/div/div/div/form/div[1]/tenant-change/div/a'
+        action: click
+        value:
+      - step: 2
+        type_selector: id
+        element_selector: tenancyName
+        action: write
+        value: welcomecall
+      - step: 3
+        type_selector: cssSelector
+        element_selector: button.btn.btn-primary
+        action: click
+        value:
+      - step: 4
+        type_selector: xpath
+        element_selector: '/html/body/app-root/ng-component/div/div/div/form/div[2]/input'
+        action: write
+        value: doitac
+      - step: 5
+        type_selector: xpath
+        element_selector: '/html/body/app-root/ng-component/div/div/div/form/div[4]/input'
+        action: write
+        value: Welcome@4321
+      - step: 6
+        type_selector: xpath
+        element_selector: '/html/body/app-root/ng-component/div/div/div/form/div[6]/button'
+        action: click
+        value:
   - step: 2
     page_name: campaign_page
     url: https://omicx.vn/app/campaign/detail/CD2023-3
     tasks:
-    - step: 1
-      type_selector: xpath
-      element_selector: "/html/body/app-root/ng-component/div/div[2]/div/app-campaign-details/div[2]/div/p-card/div/div/div/div[2]/div[1]/p-tabview/div/ul/li[2]/a"
-      action: click
-      value: 
-    - step: 2
-      type_selector: xpath
-      element_selector: "/html/body/app-root/ng-component/div/div[2]/div/app-campaign-details/div[2]/div/p-card/div/div/div/div[2]/div[1]/p-tabview/div/div/p-tabpanel[2]/div/app-campaign-detail-relation/div[1]/div[1]/div[2]/a"
-      action: click
-      value: 
+      - step: 1
+        type_selector: xpath
+        element_selector: '/html/body/app-root/ng-component/div/div[2]/div/app-campaign-details/div[2]/div/p-card/div/div/div/div[2]/div[1]/p-tabview/div/ul/li[2]/a'
+        action: click
+        value:
+      - step: 2
+        type_selector: xpath
+        element_selector: '/html/body/app-root/ng-component/div/div[2]/div/app-campaign-details/div[2]/div/p-card/div/div/div/div[2]/div[1]/p-tabview/div/div/p-tabpanel[2]/div/app-campaign-detail-relation/div[1]/div[1]/div[2]/a'
+        action: click
+        value:
