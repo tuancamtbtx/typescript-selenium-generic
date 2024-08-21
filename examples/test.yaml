@@ -2,6 +2,49 @@
 apiVersion: 1
 meta_data:
   label: omicx
+driver:
+  name: chrome
+  version: 87
+  headless: false
+  window_size: 1920x1080
+  timeout: 30
+  wait: 5
+  retry: 3
+  retry_delay: 5
+  retry_status: [500, 502, 503, 504]
+  retry_exception: [NoSuchElementException, ElementNotInteractableException]
+  retry_message: [element not interactable, element not found]
+  retry_action: [click, write]
+  retry_action_delay: 5
+  retry_action_count: 3
+  retry_action_message: [element not interactable, element not found]
+  retry_action_exception: [NoSuchElementException, ElementNotInteractableException]
+  retry_action_status: [500, 502, 503, 504]
+  retry_action_wait: 5
+  retry_action_timeout: 30
+  retry_action_retry: 3
+  retry_action_retry_delay: 5
+  retry_action_retry_status: [500, 502, 503, 504]
+  retry_action_retry_exception: [NoSuchElementException, ElementNotInteractableException]
+  retry_action_retry_message: [element not interactable, element not found]
+  retry_action_retry_action: [click, write]
+  retry_action_retry_action_delay: 5
+  retry_action_retry_action_count: 3
+  retry_action_retry_action_message: [element not interactable, element not found]
+  retry_action_retry_action_exception: [NoSuchElementException, ElementNotInteractableException]
+  retry_action_retry_action_status: [500, 502, 503, 504]
+  retry_action_retry_action_wait: 5
+  retry_action_retry_action_timeout: 30
+  retry_action_retry_action_retry: 3
+  retry_action_retry_action_retry_delay: 5
+  retry_action_retry_action_retry_status: [500, 502, 503, 504]
+  retry_action_retry_action_retry_exception: [NoSuchElementException, ElementNotInteractableException]
+  retry_action_retry_action_retry_message: [element not interactable, element not found]
+  retry_action_retry_action_retry_action: [click, write]
+  retry_action_retry_action_retry_action_delay: 5
+  retry_action_retry_action_retry_action_count: 3
+  retry_action_retry_action_retry_action_message: [element not interactable, element not found]
+  retry_action_retry_action_retry_action_exception: [
 spec:
   - step: 1
     page_name: login
