@@ -2,6 +2,7 @@ import { Builder, By, until } from 'selenium-webdriver'
 export default abstract class AbstractBasePage {
   protected abstract readonly url: string
 
+  abstract getDriver(): Promise<Builder>
   public async open() {}
   async findById() {}
   async findByClassName() {}
